@@ -1,0 +1,114 @@
+/* kdam-thmor-pro-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kdam Thmor Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/kdam-thmor-pro-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* lilita-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/lilita-one-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Stoke';
+font-style: normal;
+font-weight: 400;
+src: url('fonts/stoke-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* raleway-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/raleway-v29-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: url('fonts/noto-sans-v34-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.video {
+    width: 100%;
+    height: auto;
+}
+.naglowek {
+	margin-left: 75%;
+}
+.n1{
+    font-family: 'Noto Sans';
+    color:#FF0000;
+}
+.n2{
+    font-family: 'Noto Sans';
+
+}
+.n3{
+    font-family: 'Raleway';
+
+}
+
+.ramka{
+    border: 10px solid #FF6F59;
+    border-radius: 10px;
+    
+}
+.bitter{
+    color: #FF6F59;
+}
+.slate{
+    color: #254441;
+}
+.zomp{
+    color: #43AA8B;
+}
+.sage{
+    color: #B2B09B;
+}
+.cray{
+    color: #EF3054;
+}
+.object-fit-contain{
+    height: 100%;
+}
+li{
+    list-style:none;
+}
+hr {
+    margin: 0 auto;
+ }
+
+
+  /* aspect ratio styles */
+  .embed-responsive {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+  .embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  .embed-border {
+      border: 10px solid #FF0000;
+      border-radius: 10px;
+    }
+
+ 

@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Dupa</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  
+    <![endif]-->
+</head>
+
+<style>
+  @media only screen and (min-device-width: 480px) {
+
+    .pierwszy {
+      background: rgb(142, 141, 112);
+      background: linear-gradient(90deg, rgba(142, 141, 112, 1) 0%, rgba(232, 231, 219, 1) 94%);
+      height: 100%;
+    }
+    .drugi{
+      padding-bottom: 12rem;
+    }
+
+
+    .logo {
+
+      max-width: 80%;
+
+    }
+
+    .bar {
+      width: 50%;
+    }
+
+    .title {
+      margin-top: 3%;
+      font-size: 4.8rem;
+      line-height: 5rem;
+    }
+
+    .bolek {
+      max-width: 100%;
+    }
+
+    .gs {
+      padding-left: 15%;
+    }
+
+    .bolektext {
+      font-size: 1.5rem;
+    }
+
+    .talk {
+      width: 30%;
+      font-size: 2.5rem;
+
+    }
+
+    .services {
+      font-size: 5rem;
+    }
+
+    .trust {
+      font-size: 1.5rem;
+    }
+
+    .second {
+      color: white;
+      text-align: center;
+      border-radius: 15%;
+      margin-top: 4%;
+      font-size: 1.5rem;
+      padding-top: 2rem;
+      background: rgb(142, 141, 112);
+    }
+
+    .first {
+      padding-top: 2rem;
+      color: white;
+      text-align: center;
+      border-radius: 15%;
+      margin-top: 4%;
+      margin-left: 5rem;
+      font-size: 1.5rem;
+      background: rgb(142, 141, 112);
+    }
+
+    .xx {
+      text-align: center;
+      color: white;
+    }
+
+    .png {
+      width: 20%;
+      margin-bottom: 2rem;
+    }
+
+    .topic {
+      font-size: 1.5rem;
+    }
+
+    .utopic {
+      padding-left: 20%;
+      padding-right: 20%;
+      line-height: 1.8rem;
+      margin-bottom: 4rem;
+      font-size: 1.3rem;
+    
+    }
+
+    .learn {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .demo {
+      font-size: 4rem;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 10rem;
+
+    }
+    .customer{
+      font-size: 2rem;
+      font-weight:400;
+    }
+    .chatbot{
+      width: 53%;
+    
+    }
+
+  }
+</style>
+
+<body>
+  <div class="container-fluid pierwszy">
+    <div class="row align-items-center">
+      <div class="col-4 mt-3">
+        <img src="4.png" class="logo">
+      </div>
+      <div class="col-4 text-center fw-bold fs-4">
+        <element class="m-4" onclick="przewinDoDiva('services')""><span class="text-dark ">Services</span></element>
+        <element class="m-4" onclick="przewinDoDiva('services')""><span class="text-dark  ">How it works</span></element>
+        <element class="m-4" onclick="przewinDoDiva('services')""><span class="text-dark ">Team</span></element>
+      </div>
+      <div class="col-4  gs">
+        <button type="button" class="bar fs-5 btn btn-outline-dark fw-bold" data-toggle="modal"
+          data-target="#exampleModal">
+          Get started
+        </button>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-10">
+        <h1 class="title mb-5">
+          <p>Eliminate Manual Work</p>
+          <p>with Our Tailored</p>
+          <p>Ai Solutions.</p>
+        </h1>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-1"></div>
+      <div class="col-2">
+        <img src="bolek.png" class="bolek">
+      </div>
+      <div class="col-9 bolektext p-5">
+        <p>Struggling with everyday, repetitive tasks that drain your time and money?</p>
+        <p>If that sounds familiar, AI Solutions are the answer your business needs.</p>
+        <p>Schedule a Free Discovery Call with our AI Expert today!</p>
+      </div>
+      <div class="col-3 mt-5"></div>
+      <div class="col-9 mt-2 mb-5">
+        <button type="button" class="talk btn btn-dark fw-bold p-3"><i class="fa-solid fa-phone-volume"></i> Book a Free
+          Call</button>
+        </button>
+      </div>
+      </div>
+      </div>
+      <div class="container-fluid bg-dark drugi">
+      <div class="row">
+      <div class="col-12 text-center services fw-bold mt-5 pt-5 xx" id="services">
+        Our Services
+      </div>
+      <div class="col-12 text-center pt-2 trust xx">
+        <p>We will help you adapt your business to today's AI era by</p>
+        <p>providing high-impact AI Solutions crafted by top-tier AI Developers & Experts, personalized to your needs
+          and preferences.</p>
+        <p>Do you want to scale your business? Trust Intellifyze.</p>
+      </div>
+      <div class="col-3  first">
+        <img src="1.png" class="png"><span class="topic"> Chatbot Development</span>
+        <p class="utopic">Save countless hours and, therefore, money daily on areas such as Customer Service, Lead
+          Generation, or Staff Training with AI Chatbots.</p>
+        <button type="button" class="btn learn btn-outline-primary fw-bold">Learn more</button>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-3  second">
+        <img src="2.png" class="png"><span class="topic"> Workflow Automation</span>
+        <p class="utopic">Replace the manual execution of time-consuming, repetitive tasks like Client Onboarding or
+          Sales Process with tailored automation systems.</p>
+        <button type="button" class="btn learn btn-outline-primary fw-bold">Learn more</button>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-3  second">
+        <img src="3.png" class="png"><span class="topic"> AI Audit & Analysis </span>
+        <p class="utopic">Let's break down your business operations and find possible ways to streamline them for better
+          efficiency by implementing AI Solutions.</p>
+        <button type="button" class="btn learn btn-outline-primary fw-bold">Learn more</button>
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid bg-dark pierwszy">
+      <div class="row">   
+  </div>
+      <div class="col-12 demo lh-sm">
+        <p>DEMO of AI Chatbot</p>
+        <p class="customer">for Customer Service</p>
+        </div>
+      <div class="text-center mt-5 col-12">
+        <img src="5.png" class="chatbot">
+        <div class="col-12">
+          <button type="button" class="talk btn btn-dark fw-bold p-3 mt-5"><i class="fa-solid fa-phone-volume"></i> Book a Free
+            Call</button>
+          </button>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script>
+    function przewinDoDiva(idDiva) {
+      var docelowyDiv = document.getElementById(idDiva);
+      docelowyDiv.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+
+</html>
